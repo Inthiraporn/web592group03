@@ -15,6 +15,7 @@ if(file_exists($file)){
 }
 echo "</div>";
 echo "</div>";
+ }
  use google\appengine\api\cloud_storage\CloudStorageTools; 
  
 function userpic($uid){    
