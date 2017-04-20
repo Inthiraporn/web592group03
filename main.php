@@ -228,7 +228,7 @@
 <?php
 $appid = "web592group03.appspot.com";
 $page  = $_GET['p'];
-if($page=='') $page='Login';
+if($page=='') $page='แสดงความคิดเห็น';
 $title = $page;
 function panel_include($title,$file,$ptype='default'){
 echo "<div class='panel panel-$ptype'>";
