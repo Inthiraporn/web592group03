@@ -1,157 +1,287 @@
-<section class="login">
-	<div class="titulo">Staff Login</div>
-	<form action="#" method="post" enctype="application/x-www-form-urlencoded">
-    	<input type="text" required title="Username required" placeholder="Username" data-icon="U">
-        <input type="password" required title="Password required" placeholder="Password" data-icon="x">
-        <div class="olvido">
-        	<div class="col"><a href="#" title="Ver Carásteres">Register</a></div>
-            <div class="col"><a href="#" title="Recuperar Password">Fotgot Password?</a></div>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NONAME ENTERTAINMENT!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+    <link href="css/custom.css" rel="stylesheet">
+	
+	<script src="//use.edgefonts.net/bebas-neue.js"></script>
+
+    <!-- Custom Fonts & Icons -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/icomoon-social.css">
+	<link rel="stylesheet" href="fonts/font-awesome.min.css">
+	
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	
+
+</head>
+
+<body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+
+    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">ดูหนัง</a></li>
+                            <li><a href="#">ฟังเพลง</a></li>
+                            <li><a href="#">รายการทีวี</a></li>                            
+                            <li class="divider"></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li> 
+                    <li><a href="contact-us.html">Contact</a></li>
+					<li><a href="login.php">Login</a></li>
+                </ul>
+            </div>
         </div>
-        <a href="#" class="enviar">Submit</a>
-    </form>
-</section>
-<style>
-body {
-    background: -webkit-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0, -webkit-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0, -webkit-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px, -webkit-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px, -webkit-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px, -webkit-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0, -webkit-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
-    background-color: #840b2a;
-    background: -moz-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0, -moz-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0, -moz-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px, -moz-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px, -moz-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px, -moz-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0, -moz-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
-    background-color: #840b2a;
-    background: -o-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0, -o-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0, -o-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px, -o-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px, -o-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px, -o-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0, -o-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
-    background-size: 1000px 1000px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 1000px 1000px;
-    background-color: #840b2a;
-}
+    </header><!--/header-->
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(cd.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content centered">
+                                    <h2 class="animation animated-item-1">Welcome to<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NONAME Entertainment!</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                <div class="item" style="background-image: url(img/slides/2.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                    <h2 class="animation animated-item-1">Powerful and Responsive HTML Template</h2>
+                                    <p class="animation animated-item-2">Phasellus adipiscing felis a dictum dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula risus. </p>
+                                    <br>
+                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                <div class="item" style="background-image: url(img/slides/3.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content centered">
+                                    <h2 class="animation animated-item-1">Works Seamlessly Well on All Devices</h2>
+                                    <p class="animation animated-item-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae euismod lacus. Maecenas in tempor lectus. Nam mattis, odio ut dapibus ornare, libero. </p>
+                                    <br>
+									<a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="icon-angle-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="icon-angle-right"></i>
+        </a>
+    </section><!--/#main-slider-->
+<div class="section section-breadcrumbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>About Us</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+<div class="section">
+	    	<div class="container">
+				<div class="row">
+					<!-- Team Member -->
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<!-- Team Member Photo -->
+							<div class="team-member-image"><img src="img/team/1.jpg" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<!-- Team Member Info & Social Links -->
+									<li class="team-member-name">
+										Kanjana Saengrit
+										<!-- Team Member Social Links -->
+										<span class="team-member-social">
+											<a href="https://www.facebook.com/Bas.Kanjana.Saengrit?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Web Developer</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- End Team Member -->
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="img/team/2.jpg" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Pradiewradchada Peachaw
+										<span class="team-member-social">
+											<a href="https://www.facebook.com/gu.toey.dw"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Web Designer</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="img/team/3.jpg" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Inthiraporn Chaichumpol
+										<span class="team-member-social">
+											<a href="https://www.facebook.com/inthiraporn.chaichumpol?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Project Manager</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="img/team/4.jpg" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Piyaporn Tooltham
+										<span class="team-member-social">
+											<a href="https://www.facebook.com/piyarporn.toontam?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Project Manager</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-.login {
-    width: 300px;
-    height: 285px;
-    overflow: hidden;
-    background: #1e1e1e;
-    border-radius: 6px;
-    margin: 50px auto;
-    box-shadow: 0px 0px 50px rgba(0,0,0,.8);
-}
+<hr>
 
-.login .titulo {
-    width: 298px;
-    height: 14px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    font-size: 14px;
-    text-align: center;
-    color: #bfbfbf;
-    font-weight: bold;
-    background: #121212;
-    border: #2d2d2d solid 1px;
-    margin-bottom: 30px;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px;
-    font-family: Arial;
-}
+		<!-- Our Clients -->
+	    <div class="section">
+	    	<div class="container">
+			
+				<div class="section-title">
+				<h1>Our Success Stories</h1>
+				</div>
 
-.login form {
-    width: 240px;
-    height: auto;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
+				<div class="clients-logo-wrapper text-center row">
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-1.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-2.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-3.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-4.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-5.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-6.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-7.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-8.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-9.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-10.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-11.jpg" alt="Client Name"></a></div>
+					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-12.jpg" alt="Client Name"></a></div>
+				</div>
+			</div>
+	    </div>
+	    <!-- End Our Clients -->
 
-.login form input[type=text], .login form input[type=password] {
-    width: 200px;
-    font-size: 12px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 40px;
-    border: none;
-    color: #bfbfbf;
-    background: #141414;
-    outline: none;
-    margin: 0;
-}
+	    <!-- Footer -->
+	    <div class="footer">
+	    	<div class="container">
+			
+		    	<div class="row">
+				
+		    		<div class="col-footer col-md-4 col-xs-6">
+		    			<h3>Contact Us</h3>
+		    			<p class="contact-us-details">
+	        				<b>Address:</b> <br/>
+	        				<b>Phone:</b> <br/>
+	        				<b>Email:</b> <a href=""></a>
+	        			</p>
+		    		</div>				
+		    		<div class="col-footer col-md-4 col-xs-6">
+		    			<h3>Our Social Networks</h3>
+						<p></p>
+		    			<div>
+		    				<img src="img/icons/facebook.png" width="32" alt="Facebook">
+		    				<img src="img/icons/twitter.png" width="32" alt="Twitter">
+		    				<img src="img/icons/linkedin.png" width="32" alt="LinkedIn">
+							<img src="img/icons/rss.png" width="32" alt="RSS Feed">
+						</div>
+		    		</div>
+		    		<div class="col-footer col-md-4 col-xs-6">
+		    			<h3>About Our Company</h3>
+		    				<p></p>
+		    		</div>
 
-.login form input[type=text] {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-top: #0b0b0b solid 1px;
-    background: #141414 url(http://dev.dhenriquez.com/test-img/icons/111-user.png) 10px center no-repeat;
-}
+		    	</div>		    	
+		    </div>
+	    </div>
 
-.login form input[type=password] {
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-top: #0b0b0b 1px solid;
-    border-bottom: #353535 1px solid;
-    background: #141414 url(http://dev.dhenriquez.com/test-img/icons/54-lock.png) 10px center no-repeat;
-}
+        <!-- Javascripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+		
+		<!-- Scrolling Nav JavaScript -->
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/scrolling-nav.js"></script>		
 
-.login form .enviar {
-    width: 240px;
-    height: 12px;
-    display: block;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-radius: 6px;
-    border: none;
-    border-top: #4eb2a8 1px solid;
-    border-bottom: #161616 1px solid;
-    background: #349e92;
-    text-align: center;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    color: #FFF;
-    text-shadow: 0 -1px #1d7464, 0 1px #7bb8b3;
-    font-family: Arial;
-}
-
-.login .olvido {
-    width: 240px;
-    height: auto;
-    overflow: hidden;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 10px;
-    text-align: center;
-}
-
-.login .olvido .col {
-    width: 50%;
-    height: auto;
-    float: left;
-}
-
-.login .olvido .col a {
-    color: #fff;
-    text-decoration: none;
-    font: 12px Arial;
-}
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
-
-body { line-height: 1 }
-
-ol, ul { list-style: none }
-
-blockquote, q { quotes: none }
-
-blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-</style>
+    </body>
+</html>
