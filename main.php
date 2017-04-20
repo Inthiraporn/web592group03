@@ -67,7 +67,7 @@
                     </li>
                     <li><a href="blog.html">Blog</a></li> 
                     <li><a href="contact-us.html">Contact</a></li>
-					<li><a href="login.php">Login</a></li>
+					<li><a href="#a1">Login</a></li>
                 </ul>
             </div>
         </div>
@@ -80,7 +80,7 @@
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(cd.jpg)">
+                <div class="item active" style="background-image: url(http://www.hdwallpapers.in/thumbs/2017/jupiter_artwork-t2.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
@@ -96,7 +96,135 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
-                                    <!doctype html> 
+                                    
+                                    <br>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                <div class="item" style="background-image: url(img/slides/3.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content centered">
+                                    <h2 class="animation animated-item-1">Works Seamlessly Well on All Devices</h2>
+                                    <p class="animation animated-item-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae euismod lacus. Maecenas in tempor lectus. Nam mattis, odio ut dapibus ornare, libero. </p>
+                                    <br>
+									<a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="icon-angle-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="icon-angle-right"></i>
+        </a>
+    </section><!--/#main-slider-->
+<div class="section section-breadcrumbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>About Us</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+<div class="section">
+	    	<div class="container">
+				<div class="row">
+					<!-- Team Member -->
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<!-- Team Member Photo -->
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/1.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<!-- Team Member Info & Social Links -->
+									<li class="team-member-name">
+										Kanjana Saengrit
+										<!-- Team Member Social Links -->
+										<span class="team-member-social">
+										<br>
+											<a href="https://www.facebook.com/Bas.Kanjana.Saengrit?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Web Developer</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- End Team Member -->
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/2.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Pradiewradchada Peachaw
+										<span class="team-member-social">
+											<a href="https://www.facebook.com/gu.toey.dw"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Web Designer</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/3.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Inthiraporn Chaichumpol
+										<span class="team-member-social">
+										<br>
+											<a href="https://www.facebook.com/inthiraporn.chaichumpol?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Project Manager</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/4.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Piyaporn Tooltham
+										<span class="team-member-social">
+										<br>
+											<a href="https://www.facebook.com/piyarporn.toontam?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Project Manager</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<hr>
+
+		<!-- Our Clients -->
+	    <div class="section">
+	    	<div class="container">
+			
+				<div class="section-title">
+				<a name="a1"><h1>Login or Register</h1>
+				</div>
+                <!doctype html> 
 <?php
 $appid = "web592group03.appspot.com";
 $page  = $_GET['p'];
@@ -147,145 +275,6 @@ function userpic($uid){
  </div>
  </body>
  </html> 
-                                    <br>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-                <div class="item" style="background-image: url(img/slides/3.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Works Seamlessly Well on All Devices</h2>
-                                    <p class="animation animated-item-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae euismod lacus. Maecenas in tempor lectus. Nam mattis, odio ut dapibus ornare, libero. </p>
-                                    <br>
-									<a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="icon-angle-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="icon-angle-right"></i>
-        </a>
-    </section><!--/#main-slider-->
-<div class="section section-breadcrumbs">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>About Us</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-<div class="section">
-	    	<div class="container">
-				<div class="row">
-					<!-- Team Member -->
-					<div class="col-md-3 col-sm-6">
-						<div class="team-member">
-							<!-- Team Member Photo -->
-							<div class="team-member-image"><img src="img/team/1.jpg" alt="Name Surname"></div>
-							<div class="team-member-info">
-								<ul>
-									<!-- Team Member Info & Social Links -->
-									<li class="team-member-name">
-										Kanjana Saengrit
-										<!-- Team Member Social Links -->
-										<span class="team-member-social">
-											<a href="https://www.facebook.com/Bas.Kanjana.Saengrit?fref=ts"><i class="icon-facebook"></i></a>
-										</span>
-									</li>
-									<li>Web Developer</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!-- End Team Member -->
-					<div class="col-md-3 col-sm-6">
-						<div class="team-member">
-							<div class="team-member-image"><img src="img/team/2.jpg" alt="Name Surname"></div>
-							<div class="team-member-info">
-								<ul>
-									<li class="team-member-name">
-										Pradiewradchada Peachaw
-										<span class="team-member-social">
-											<a href="https://www.facebook.com/gu.toey.dw"><i class="icon-facebook"></i></a>
-										</span>
-									</li>
-									<li>Web Designer</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="team-member">
-							<div class="team-member-image"><img src="img/team/3.jpg" alt="Name Surname"></div>
-							<div class="team-member-info">
-								<ul>
-									<li class="team-member-name">
-										Inthiraporn Chaichumpol
-										<span class="team-member-social">
-											<a href="https://www.facebook.com/inthiraporn.chaichumpol?fref=ts"><i class="icon-facebook"></i></a>
-										</span>
-									</li>
-									<li>Project Manager</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="team-member">
-							<div class="team-member-image"><img src="img/team/4.jpg" alt="Name Surname"></div>
-							<div class="team-member-info">
-								<ul>
-									<li class="team-member-name">
-										Piyaporn Tooltham
-										<span class="team-member-social">
-											<a href="https://www.facebook.com/piyarporn.toontam?fref=ts"><i class="icon-facebook"></i></a>
-										</span>
-									</li>
-									<li>Project Manager</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-<hr>
-
-		<!-- Our Clients -->
-	    <div class="section">
-	    	<div class="container">
-			
-				<div class="section-title">
-				<h1>Our Success Stories</h1>
-				</div>
-
-				<div class="clients-logo-wrapper text-center row">
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-1.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-2.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-3.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-4.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-5.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-6.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-7.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-8.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-9.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-10.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-11.jpg" alt="Client Name"></a></div>
-					<div class="col-lg-1 col-md-1 col-sm-3 col-xs-6"><a href="#"><img src="img/logos/logo-12.jpg" alt="Client Name"></a></div>
-				</div>
 			</div>
 	    </div>
 	    <!-- End Our Clients -->
