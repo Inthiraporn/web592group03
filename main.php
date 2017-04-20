@@ -96,8 +96,57 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive HTML Template</h2>
-                                    <p class="animation animated-item-2">Phasellus adipiscing felis a dictum dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula risus. </p>
+                                    <!doctype html> 
+<?php
+$appid = "web592group03.appspot.com";
+$page  = $_GET['p'];
+if($page=='') $page='Login';
+$title = $page;
+function panel_include($title,$file,$ptype='default'){
+echo "<div class='panel panel-$ptype'>";
+echo "<div class='panel-heading'>$title</div>";
+echo "<div class='panel-body'>";
+if(file_exists($file)){
+include($file);
+}else{
+	echo "ไมพ่บไฟล์$file ";
+	}
+	echo "</div>";
+	echo "</div>";
+	}
+use google\appengine\api\cloud_storage\CloudStorageTools; 
+ 
+function userpic($uid){
+    global $appid;
+	$userpic="gs://$appid/{$uid}.jpg";
+    if(!file_exists($userpic)){
+        return "user.png";
+		}
+		return CloudStorageTools::getImageServingUrl($userpic,["size"=>200]);
+		} 
+ 
+				 ?>
+				 <html lang="en">
+				 <head>
+				 <meta charset="UTF-8">
+				 <title><?= $page ?> </title>
+				 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+				 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+				 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+				 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> 
+ 
+ </head>
+ <body role="document"> 
+ <div class="container">
+ <div class="col-sm-3">
+ <?php panel_include("User","user.php");
+ ?>
+</div> <div class="col-sm-9">
+ <?php panel_include($title,"G03_body.php" ,"primary"); ?>
+ </div>
+ </div>
+ </body>
+ </html> 
                                     <br>
                                     <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
                                 </div>
