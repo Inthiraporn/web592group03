@@ -15,14 +15,14 @@
 			  }else{
 				  $userdata['nick']=$user->getNickname();
 				  }   
-		 $url = UserService::createLogoutUrl('/main.php');
+		 $url = UserService::createLogoutUrl('/Login.php');
 		 //แสดงภาพผู้ใช้โดยการเรียกฟังก์ชัน userpic จากข้อที่ 1
 		 echo "<img src='".userpic($uid)."' width='200'><br>";
 		 echo $userdata['nick'];
-		 echo "<br><a href='main.php?p=useredit'>Edit User</a>";
+		 echo "<br><a href='Login.php?p=useredit'>Edit User</a>";
 		 echo "<br><a href='$url'>Logout</a>";
 		 }else{
-			 $url = UserService::createLoginUrl('/main.php');
+			 $url = UserService::createLoginUrl('/Login.php');
 			 echo "<a href='$url'><h3>Login or Register</h3></a>";
 			 } ?> 
 			 	
