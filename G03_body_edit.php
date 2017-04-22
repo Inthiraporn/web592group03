@@ -12,7 +12,7 @@
 			  $page=substr($file,0,-5);
 			  if($file=='menu.txt') $page='home';
 			  ?> 
-			  บันทึกเรียบร้อย ไปที่หน้า <a href='main.php?p=<?=$page?>' id='pagelink'><?=$page?></a>
+			  บันทึกเรียบร้อย ไปที่หน้า <a href='Login.php?p=<?=$page?>' id='pagelink'><?=$page?></a>
 			  <script>
 			  window.setTimeout(function(){pagelink.click()},1000);
 			  </script>
