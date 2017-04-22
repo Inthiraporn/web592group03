@@ -54,7 +54,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="main.php">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="#a1">About Us</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -67,7 +67,7 @@
                         </ul>
                     </li>
                     <li><a href="contact-us.html">Contact</a></li>
-					<li><a href="#a2">Login</a></li>
+					<li><a href="Login.php">Login</a></li>
                 </ul>
             </div>
         </div>
@@ -131,7 +131,7 @@
 <div class="section">
 			<div class="container">
 				<div class="section-title">
-					<h1>ABOUT US</h1>
+				<a name="a2"><h1>ABOUT US</h1></a>
 				</div>
 			</div>
 		</div>
@@ -142,7 +142,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="team-member">
 							<!-- Team Member Photo -->
-							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/1.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/45.jpg?raw=true" alt="Name Surname"></div>
 							<div class="team-member-info">
 								<ul>
 									<!-- Team Member Info & Social Links -->
@@ -216,68 +216,7 @@
 
 <hr>
 
-		<!-- Our Clients -->
-	    <div class="section">
-	    	<div class="container">
-			
-				<div class="section-title">
-				<a name="a2"> <h1>Login or Register</h1></a>
-				</div>
-                <!doctype html> 
-<?php
-$appid = "web592group03.appspot.com";
-$page  = $_GET['p'];
-if($page=='') $page='Login';
-$title = $page;
-function panel_include($title,$file,$ptype='default'){
-echo "<div class='panel panel-$ptype'>";
-echo "<div class='panel-heading'>$title</div>";
-echo "<div class='panel-body'>";
-if(file_exists($file)){
-include($file);
-}else{
-	echo "ไมพ่บไฟล์$file ";
-	}
-	echo "</div>";
-	echo "</div>";
-	}
-use google\appengine\api\cloud_storage\CloudStorageTools; 
- 
-function userpic($uid){
-    global $appid;
-	$userpic="gs://$appid/{$uid}.jpg";
-    if(!file_exists($userpic)){
-        return "user.png";
-		}
-		return CloudStorageTools::getImageServingUrl($userpic,["size"=>200]);
-		} 
- 
-				 ?>
-				 <html lang="en">
-				 <head>
-				 <meta charset="UTF-8">
-				 <title><?= $page ?> </title>
-				 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-				 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-				 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
-				 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> 
- 
- </head>
- <body role="document"> 
- </header>
- <div class="container">
- <div class="col-sm-3">
- <?php panel_include("User","user.php");
- ?>
-</div> <div class="col-sm-9">
- <?php panel_include($title,"G03_body.php" ,"primary"); ?>
- </div>
- </div>
- </body>
- </html> 
-			</div>
-	    </div>
-	    <!-- End Our Clients -->
+		
 
 	    <!-- Footer -->
 	    <div class="footer">
