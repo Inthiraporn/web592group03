@@ -54,18 +54,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="main.php">Home</a></li>
-                    <li><a href="#a1">About Us</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">ดูหนัง</a></li>
-                            <li><a href="#">ฟังเพลง</a></li>
-                            <li><a href="#">รายการทีวี</a></li>                            
-                            <li class="divider"></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                        </ul>
-                    </li>
+			<li><a href="#a1">About Us</a></li>
                     <li><a href="contact-us.html">Contact</a></li>
 					<li><a href="Login.php">Login</a></li>
                 </ul>
@@ -131,6 +120,10 @@
 <div class="section">
 			<div class="container">
 				<div class="section-title">
+					<br>
+					<br>
+					<br>
+					<br>
 				<a name="a2"><h1>ABOUT US</h1></a>
 				</div>
 			</div>
