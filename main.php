@@ -54,7 +54,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="main.php">Home</a></li>
-                    <li><a href="#a1">About Us</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -131,7 +131,7 @@
 <div class="section">
 			<div class="container">
 				<div class="section-title">
-					<a name="a1"><h1>ABOUT US</h1></a>
+					<h1>ABOUT US</h1>
 				</div>
 			</div>
 		</div>
