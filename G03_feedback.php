@@ -18,13 +18,12 @@
 		   $time=date("d/m/Y H:i:s",$fb['time']); 
  
                //มีการเรียก userpic เพื่อแสดงภาพผู้ใช้
-			   //$pic = userpic($fb['user']); 
+ $pic = userpic($fb['user']); 
  
    echo "<div class='row'>";
    echo "<div class='col-xs-1'><img src='$pic' width='48'></div>";
    echo "<div class='col-xs-10'>";
    echo "<a href='#'>$fb[name]</a><br>$text <br>";
-   echo "<a href='#'>ถูกใจ</a> $time<hr>";
    echo "</div>";
    echo "</div>";
    }
