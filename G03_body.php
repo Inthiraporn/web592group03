@@ -10,7 +10,7 @@
 				readfile($htmlfile);
 				}
 				if (UserService::isCurrentUserAdmin()){
-					echo "<br><a href='main.php?p=edit&file=$page.html' class='btn btn-default'>Edit</a>";
+					echo "<br><a href='Login.php?p=edit&file=$page.html' class='btn btn-default'>Edit</a>";
 					} 
 					include("G03_feedback.php");
 					}
