@@ -55,77 +55,29 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="main.php">Home</a></li>
                     <li><a href="contact-us.html">Contact</a></li>
+					<li><a href="#a1">About Us</a></li>
                 </ul>
             </div>
         </div>
     </header><!--/header-->
-    <section id="main-slider" class="no-margin">
-        <div class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active" style="background-image: url(http://www.wallpapersandmore.com/admin/wllpapers/1512080822181entertainment-dj-mixer-music-primary-category-wallpapers-hq-dj-music-wallpaper.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Welcome to<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NONAME Entertainment!</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-                <div class="item" style="background-image: url(http://www.siwallpaperhd.com/wp-content/uploads/2015/10/music_hd_wallpaper.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content center centered">
-                                    <h2 class="animation animated-item-1">MUSICS</h2>
-                                    <p class="animation animated-item-2">Is My Life. </p>
-                                    <br>
-                                    <a class="btn btn-md animation animated-item-3" href="music.html">Listen!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-                <div class="item" style="background-image: url(http://4.bp.blogspot.com/-z35MFVa5-ug/Um7RYVTeO2I/AAAAAAAAAmE/ldT_R_Hs4Sk/s1600/movie-UP-cartoon-disney-pixar-full-hd-wallpaper-balloons-and-the-house-in-the-sky-1080p.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Movies</h2>
-                                    <p class="animation animated-item-2">Enjoy movies</p>
-                                    <br>
-									<a class="btn btn-md animation animated-item-3" href="movie.html">Watch!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="icon-angle-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="icon-angle-right"></i>
-        </a>
-    </section><!--/#main-slider-->
+    <!--/#main-slider-->
 
 		<!-- Our Clients -->
 	    <div class="section">
 	    	<div class="container">
 			
 				<div class="section-title">
-				<a name="a2"> <h1>Login or Register</h1></a>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<a name = "#"><h1>Login or Register</h1></a>
 				</div>
                 <!doctype html> 
 <!doctype html> 
 <?php
+error_reporting(0);
 $appid = "web592group03.appspot.com";
 $page  = $_GET['p'];
 if($page=='') $page='Login';
@@ -177,9 +129,99 @@ function userpic($uid){
  </body>
  </html> 
  
+			<div class="section">
+			<div class="container">
+				<div class="section-title">
+				<br>
+				<br>
+				<br>
+				<br>
+				<a name="a1"><h1>ABOUT US</h1>
+				</div>
 			</div>
-	    </div>
-	    <!-- End Our Clients -->
+		</div>
+<div class="section">
+	    	<div class="container">
+				<div class="row">
+					<!-- Team Member -->
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<!-- Team Member Photo -->
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/1.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<!-- Team Member Info & Social Links -->
+									<li class="team-member-name">
+										Kanjana Saengrit
+										<!-- Team Member Social Links -->
+										<span class="team-member-social">
+										<br>
+											<a href="https://www.facebook.com/Bas.Kanjana.Saengrit?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Web Developer</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- End Team Member -->
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/2.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Pradiewradchada Peachaw
+										<span class="team-member-social">
+											<a href="https://www.facebook.com/gu.toey.dw"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Web Designer</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/3.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Inthiraporn Chaichumpol
+										<span class="team-member-social">
+										<br>
+											<a href="https://www.facebook.com/inthiraporn.chaichumpol?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Project Manager</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/4.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-info">
+								<ul>
+									<li class="team-member-name">
+										Piyaporn Tooltham
+										<span class="team-member-social">
+										<br>
+											<a href="https://www.facebook.com/piyarporn.toontam?fref=ts"><i class="icon-facebook"></i></a>
+										</span>
+									</li>
+									<li>Project Manager</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<hr>
+
+		
 
 	    <!-- Footer -->
 	    <div class="footer">
