@@ -39,8 +39,7 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         
-
-    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+      <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -49,12 +48,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-				<a class="navbar-brand" href="main.php"><img src="logo.png" alt="Noname Entertainment"></a>
+				<img src="logo.png"><a class="navbar-brand" href="main.php"
+ alt="Noname Entertainment"></a>
             </div>
+
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="main.php">Home</a></li>
-			<li><a href="#a1">About Us</a></li>
+                    <li><a href="#a1">About Us</a></li>
                     <li><a href="contact-us.html">Contact</a></li>
 					<li><a href="Login.php">Login</a></li>
                 </ul>
@@ -117,15 +118,15 @@
             <i class="icon-angle-right"></i>
         </a>
     </section><!--/#main-slider-->
-<div class="section">
+<a name="a1"></a><div class="section">
 			<div class="container">
 				<div class="section-title">
-					<br>
-					<br>
-					<br>
-					<br>
-				<a name="a2"><h1>ABOUT US</h1></a>
-				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<a name="a1"><h1>ABOUT US</h1></div>
+		
 			</div>
 		</div>
 <div class="section">
@@ -135,7 +136,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="team-member">
 							<!-- Team Member Photo -->
-							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/45.jpg?raw=true" alt="Name Surname"></div>
+							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/1.jpg?raw=true" alt="Name Surname"></div>
 							<div class="team-member-info">
 								<ul>
 									<!-- Team Member Info & Social Links -->
