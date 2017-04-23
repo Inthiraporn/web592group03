@@ -56,6 +56,8 @@
                         <a href="#about"><b><font SIZE=3> || เนื้อเพลง || </a></b></font>
 					  <li class='home'></br></br>
 					     </li>
+	    <li class="page-scroll">
+                        <a href="music.html"><b><font SIZE=3> || กลับหน้าหลัก || </a></b></font>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -328,34 +330,15 @@
 
 	
 	<!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                       
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                  
-                </div>
-            </div>
-        </div>
-		</footer>
+    <div class="footer">
+	    	<div class="container">
+			
+		    	<div class="row">
+				
+		    		<div class="col-footer col-md-4 col-xs-6">
+		    			<h3>Contact Us</h3>
+		    			<p class="contact-us-details">
+	        				<b>Address: Faculty of Science, KhonKaen University</b> <br/>
+	        				<b>Phone:</b><br/>
+	        			</p>
+		    		</div>	
