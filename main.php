@@ -48,8 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-				<img src="logo.png"><a class="navbar-brand" href="main.php"
- alt="Noname Entertainment"></a>
+		<a class="navbar-brand" href="main.php" alt="Noname Entertainment"><img src="logo.png"></a>
             </div>
 
             <div class="collapse navbar-collapse">
