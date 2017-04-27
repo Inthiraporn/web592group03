@@ -69,7 +69,7 @@
     <header>
         <div class="container" id="maincontent" tabindex="-1">
 		    <h1 class="name"><FONT SIZE=50><b>ROOM 39</b></h1></font>
-			
+			 <img class="img-responsive " src="p2.png" alt="">
 		<IMG SRC="p2.png" width="500" height="150">
             <div class="row">
                 <div class="col-lg-12">
