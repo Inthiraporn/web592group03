@@ -54,6 +54,24 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="main.php">Home</a></li>
+		    <li class="dropdown">
+                        <a href="music.html" class="dropdown-toggle" data-toggle="dropdown">Musics <i class="icon-angle-down caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="m1.php">Thai Music</a></li>
+                            <li><a href="m3.php">Korea Music</a></li>
+			    <li><a href="m5.php">International Song</a></li>
+                        </ul>
+                    </li>
+		    <li class="dropdown">
+                        <a href="mainmovie.html" class="dropdown-toggle" data-toggle="dropdown">Movies <i class="icon-angle-down caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mainmovie.html#thai">Thai Movie</a></li>
+			    <li><a href="mainmovie.html#comedy">Comedy Movie</a></li>
+                            <li><a href="mainmovie.html#korea">Korea Movie</a></li>
+			    <li><a href="mainmovie.html#horror">Horror Movie</a></li>
+			    <li><a href="mainmovie.html#new">New Movie</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#a1">About Us</a></li>
                     <li><a href="contact-us.html">Contact</a></li>
 					<li><a href="Login.php">Login</a></li>
