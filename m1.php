@@ -49,15 +49,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     
-                    <li class="page-scroll">
-                        <a href="#portfolio"><b><font SIZE=3> || มิวสิควิดีโอ || </a></b></font>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about"><b><font SIZE=3> || เนื้อเพลง || </a></b></font>
-					  <li class='home'></br></br>
-					     </li>
-	    <li class="page-scroll">
-                        <a href="music.html"><b><font SIZE=3> || กลับหน้าหลัก || </a></b></font>
+                   <div class="btn-group" role="group" aria-label="">
+   <a href="#a1"><button type="button" class="btn btn-default">เพลง เป็นทุกอย่าง</a></button>
+   <a href="#a2"><button type="button" class="btn btn-default">เพลง ความจริง</a></button>
+   <a href="#a3"><button type="button" class="btn btn-default">เพลง อย่าให้ฉันคิด</a></button>
+   <a href="#a4"><button type="button" class="btn btn-default">เพลง Restart</a></button>
+   <a href='music.html'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
+   
+ 
+</div>
+</div>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -68,15 +69,11 @@
     <!-- Header -->
     <header>
         <div class="container" id="maincontent" tabindex="-1">
-		    <h1 class="name"><FONT SIZE=50><b>ROOM 39</b></h1></font>
-			 <img class="img-responsive " src="p2.png" alt="">
-		<IMG SRC="p2.png" width="500" height="150">
+		    <h1 class="name"><FONT SIZE=50><b>ROOM 39</b></h1></font>		
             <div class="row">
                 <div class="col-lg-12">
-				
                     <img class="img-responsive img-circle" src="m3.jpg" alt="">
-                    <div class="intro-text">
-                        
+                    <div class="intro-text">     
                         <hr class="star-light">
                         <h1 span class="skills"> ROOM 39 || ROOM 39</span></h1>
                     </div>
@@ -84,56 +81,17 @@
             </div>
         </div>
     </header>
-	
-	    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-			  <hr class="star-primary">
-                <div class="col-lg-12 text-center">
-				<ul Style="color:white;background-color:#2F4F4F;border:5px solid #FFFFFF">
-<font size="4"><b style="color:#FFFFFF"><font face=" monospace"> <h2>มิวสิควิดีโอ</font></b></h2></ul>
-			<center><table border="0" ><tr>
-				<td><td><img class="img-circle" src="ls.gif" alt=""><a href="#a1"><font SIZE=4> <b style="color:#3300CC"><b>เนื้อเพลง เป็นทุกอย่าง  >> 
-					  <a href="#a2"><b style="color:#3300CC">เนื้อเพลง ความจริง  >></b>
-					  <a href="#a3"><b style="color:#3300CC">เนื้อเพลง อย่าให้ฉันคิด  >></b>
-					  <a href="#a4"><b style="color:#3300CC">เนื้อเพลง Restart  </b>
-					 </b></font></font>
-                    </tr></table> </center>
-                    <hr class="star-primary"></br>
-                </div>
-            </div>
-			
-		
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/totIVAi9BUc" allowfullscreen></iframe>
-			<a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/YM_D0Qx5VOk?ecver=2" allowfullscreen></iframe></br></br></br>
-			<a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/wy-B-s4SGZY?ecver=2" allowfullscreen></iframe>
-			<a name="b2"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/kTHcaTCM4rs?ecver=2"  allowfullscreen></iframe></br></br></br></br>
-			<a name="b2"></a>
 
-<center><img src="s4.jpg"width="500" height=150" ></center>
-	
-	<!-- About Section -->
-    <section  id="about">
-        <div class="container">
-            <div class="row">
-			<hr class="star-primary">
-                <div class="col-lg-12 text-center">
-				<ul Style="color:white;background-color:#483D8B;border:5px solid #FFFFFF">
-<font size="4"><b style="color:#FFFFFF"><font face=" monospace">
-                    <h2>เนื้อเพลง</font></h2></ul></b>
-                    <hr class="star-primary">
-					
-			
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง เป็นทุกอย่าง </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>
+<!--เป็นทุกอย่าง-->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง    เป็นทุกอย่าง 
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a1"></a></center>
-
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/totIVAi9BUc" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#191970"><center>
+ 
 เป็นเพื่อนเธอไปดูหนัง<br />
 อยู่ด้วยกันตอนเธอเหงา<br />
 ฟังทุกเรื่องราว ที่เธอระบาย<br />
@@ -187,19 +145,20 @@
 เป็นทุกอย่างให้เธอแล้ว<br />
 แม้ว่าเธอไม่เคยเป็นอะไรกับฉันเลย<br />
 ก็ฉันคงไม่มีสิทธิ์จะคิดอะไรไปมากกว่านี้<br />
-ได้อยู่ตรงนี้ก็ดีแค่ไหน</br>
-<a  href='#b1'> <img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-  ***** อ้างอิง:<a href=' https://www.siamzone.com/music/thailyric/12401'>จากแหล่งข้อมูล *****</a></div><br /><br />
+ได้อยู่ตรงนี้ก็ดีแค่ไหน</br></br></br></center></marquee>
+
+<center> <font size=1> ***** อ้างอิง:<a href=' https://www.siamzone.com/music/thailyric/12401'>จากแหล่งข้อมูล</a> *****</font></center><br /><br /><br />
 
   
-  
-  
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;"><a name="a2"></a>	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง ความจริง  </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>
+<!--ความจริง--> 
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง ความจริง <hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a2"></a></center>
-
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/YM_D0Qx5VOk?ecver=2" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#483D8B"><center>
+ 
 วันนี้เธอยังเหมือนเดิม สวยงามและสดใส<br />
 เนิ่นนานแม้จากกันไปด้วยน้ำตา<br />
 ยังจดจำสายตา เสียงเธอที่อ่อนหวาน<br />
@@ -234,15 +193,20 @@
 <br />
 ความจริง ที่เธอทิ้งเราไป อย่าลืมความจริง มันไม่มีทาง<br />
 กับความรักที่เราต้องเจ็บ และใช้น้ำตาล้างทุกอย่าง<br />
-ให้ลบเลือน อย่าลืมว่าความจริงเป็นอย่างไร	</br>
-<a  href='#b1'> <img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='https://www.siamzone.com/music/thailyric/10774'>จากแหล่งข้อมูล *****</a></div><br /><br />
+ให้ลบเลือน อย่าลืมว่าความจริงเป็นอย่างไร</br></br></br></center></marquee>
 
-<div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">
-<FONT SIZE=5<b style="color:#000080"><b> เพลง  อย่าให้ฉันคิด</br><a name="a3"></b><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>
+<center><font size=1>***** อ้างอิง:<a href='https://www.siamzone.com/music/thailyric/10774'>จากแหล่งข้อมูล </a>*****</font></center><br /><br /><br />
+
+
+
+<!--อย่าให้ฉันคิด--> 
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง อย่าให้ฉันคิด<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a3"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/wy-B-s4SGZY?ecver=2" allowfullscreen></iframe></br></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#0000CD"><center>
 
 ได้ฟังเรื่องราวของเธอ<br />
 กับความรักที่กำลังจะจบลง<br />
@@ -280,17 +244,20 @@
 คนเดียวเรื่อยไป ถ้าเธอนั้นไม่ต้องการ<br />
 อย่าให้ฉันคิดไปเอง<br />
 อย่าให้ฉันคิดไปเอง<br />
-อยากจะรู้เพียง ถ้าไม่มีเขาแล้วเราจะรักกันไหม<br />
-<a  href='#b2'> <img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href=' https://musicstation.kapook.com/%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B8%B4%E0%B8%94_Room39.html'>จากแหล่งข้อมูล *****</a></div><br /><br />
+อยากจะรู้เพียง ถ้าไม่มีเขาแล้วเราจะรักกันไหม</br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href=' https://musicstation.kapook.com/%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B8%B4%E0%B8%94_Room39.html'>
+จากแหล่งข้อมูล </a>*****</div></font></center><br /><br /><br />
 
 
 
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">
-<FONT SIZE=5><b style="color:#000080"><b> เพลง  Restart </br><a name="a4"></a><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>
+<!--Restart--> 
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง Restart--<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a4"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/kTHcaTCM4rs?ecver=2"  allowfullscreen></iframe></br></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#0000FF"><center>
 
 พยายามเท่าไร ก็ยังกลับมาตรงที่เดิมไม่เคยไปไหนพ้น<br />
 รู้แล้วว่าเลิกกันต้องอดทน เข้าใจว่ารักเธอมากแค่ไหนก็ตอนนี้<br />
@@ -314,9 +281,9 @@
 <br />
 ลองดูอีกทีได้ไหม เริ่มต้นอีกทีได้ไหม หากเธอยังรักกัน<br />
 ลองดูอีกทีได้ไหม Restart อีกทีได้ไหม อีกแค่สักครั้ง<br />
-แค่เพียงโอกาสได้แก<br />
-<a  href='#b2'> <img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-	***** อ้างอิง:<a href='https://www.siamzone.com/music/thailyric/11045'>จากแหล่งข้อมูล ***** </a></div><br /><br />
+แค่เพียงโอกาสได้แก</br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='https://www.siamzone.com/music/thailyric/11045'>จากแหล่งข้อมูล </a>***** *</div></font></center><br /><br /><br />
+
 							</div>
 						</div>
 					</div>
@@ -330,15 +297,37 @@
 
 	
 	<!-- Footer -->
-    <div class="footer">
-	    	<div class="container">
-			
-		    	<div class="row">
-				
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Contact Us</h3>
-		    			<p class="contact-us-details">
-	        				<b>Address: Faculty of Science, KhonKaen University</b> <br/>
-	        				<b>Phone:</b><br/>
-	        			</p>
-		    		</div>	
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                       
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                  
+                </div>
+            </div>
+        </div>
+		</footer>
+		
+		
+		
