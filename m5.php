@@ -48,15 +48,17 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     
-                    <li class="page-scroll">
-                        <a href="#portfolio"><b><font SIZE=3> || มิวสิควิดีโอ || </a></b></font>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about"><b><font SIZE=3> || เนื้อเพลง || </a></b></font>
-                    </li>
-                  <li class="page-scroll">
-                        <a href="music.html"><b><font SIZE=3> || กลับหน้าหลัก || </a></b></font>
-                    </li>
+                     <div class="btn-group" role="group" aria-label="">
+   <a href="#a1"><button type="button" class="btn btn-default">เพลง We Don’t Talk Anymore</a></button>
+   <a href="#a2"><button type="button" class="btn btn-default">เพลง I Hate U I Love U</a></button>
+   <a href="#a3"><button type="button" class="btn btn-default">เพลง Lay Me Down</a></button>
+   <a href="#a4"><button type="button" class="btn btn-default">เพลง  Back At One</a></button>
+   <a href='music.html'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
+   
+ 
+</div>
+</div>
+                  
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -68,8 +70,7 @@
     <header>
         <div class="container" id="maincontent" tabindex="-1">
 		    <h1 class="name"><FONT SIZE=50><b>International Song</b></h1></font>
-			
-		<IMG SRC="p2.png" width="500" height="150">
+		
             <div class="row">
                 <div class="col-lg-12">
 				 <center><table border="0" ><tr>
@@ -87,53 +88,18 @@
         </div>
     </header>
 	
-	    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-			  <hr class="star-primary">
-                <div class="col-lg-12 text-center">
-				<ul Style="color:white;background-color:#000080;border:5px solid #FFFFFF">
-<font size="4"><b style="color:#FFFFFF"><font face=" monospace"> <h2>มิวสิควิดีโอ</font></b></h2></ul>
-<td><td><img class="img-circle" src="ls.gif" alt=""><a href="#a1"><font SIZE=4> 
-				      <b style="color:#2F4F4F"><b>เนื้อเพลง We Don’t Talk Anymore>> 
-					  <a href="#a2"><b style="color:#2F4F4F">เนื้อเพลง I Hate U I Love U >></b>
-					  <a href="#a3"><b style="color:#2F4F4F">เนื้อเพลง  Lay Me Down>></b>
-					  <a href="#a4"><b style="color:#2F4F4F">เนื้อเพลง Back At One </b>
-					 </b></font></font>
-                    </tr></table> </center></br>
-                    <hr class="star-primary">
-					
-                </div>
-            </div>
-			
-		
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/3AtDnEC4zak" frameborder="0" allowfullscreen></iframe>
-			<a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/BiQIc7fG9pA" frameborder="0" allowfullscreen></iframe></br></br>
-			<a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/HaMq2nn5ac0" frameborder="0" allowfullscreen></iframe>
-			<a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/rXPfovXw2tw" frameborder="0" allowfullscreen></iframe></br></br>
-		    <a name="b1"></a>
 
-<center><img src="s4.jpg"width="500" height=150" ></center>
-	
-	<!-- About Section -->
-    <section  id="about">
-        <div class="container">
-            <div class="row">
-			<hr class="star-primary">
-                <div class="col-lg-12 text-center">
-				<ul Style="color:white;background-color:#003333;border:5px solid #FFFFFF">
-<font size="4"><b style="color:#FFFFFF"><font face=" monospace">
-                    <h2>เนื้อเพลง</font></h2></ul></b>
-                    <hr class="star-primary">
-				
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง  We Don’t Talk Anymore </b></font></br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
+<!--เพลง  We Don’t Talk Anymore-->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary">เพลง  We Don’t Talk Anymore
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a1"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/3AtDnEC4zak" frameborder="0" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#191970"><center>
+
+
 We don&#8217;t talk anymore<br />
 <span style="color: #0000ff"><strong>วี ด็อน ที ท๊อล์ค แอนนี่มอ </strong></span><br />
 We don&#8217;t talk anymore<br />
@@ -311,16 +277,22 @@ Now I can&#8217;t get you out of my brain (Woah)<br />
 Oh, it&#8217;s such a shame<br />
 <span style="color: #0000ff"><strong>โอ , อิท เอส ซัช เชม </strong></span><br />
 That we don&#8217;t talk anymore<br />
-<span style="color: #0000ff"><strong>แด้ท วี ด็อน ที ท๊อล์ค แอนนี่มอ </strong></span></p></br>
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://lyricsreading.com/70.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />
+<span style="color: #0000ff"><strong>แด้ท วี ด็อน ที ท๊อล์ค แอนนี่มอ </strong></span></p></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://lyricsreading.com/70.html'>จากแหล่งข้อมูล </a> *****</font></center><br /><br /><br />
 
 
 
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">
-<FONT SIZE=5><b style="color:#000080"><b> เพลง I Hate U I Love U  </font></br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
+<!--I Hate U I Love U---->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง   I Hate U I Love U
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a2"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/BiQIc7fG9pA" frameborder="0" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#556B2F"><center>
+
+
 <p style="text-align: center;">Feeling used<br />
 <span style="color: #ff0000;"><strong>(ฟีลลิ่ง ยู๊ส)</strong></span><br />
 But I&#8217;m<br />
@@ -491,15 +463,20 @@ I hate that I want you<br />
 You want her, you need her<br />
 <span style="color: #ff0000;"><strong>(ยู ว้อนท เฮอ , ยู นี๊ด เฮอ)</strong></span><br />
 And I&#8217;ll never be her<br />
-<span style="color: #ff0000;"><strong>(แอนด์ แอล เน๊เว่อร์ บี เฮอ)</strong></span></p></br>
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://lyricsreading.com/188.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />
+<span style="color: #ff0000;"><strong>(แอนด์ แอล เน๊เว่อร์ บี เฮอ)</strong></span></p></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://lyricsreading.com/188.html'>จากแหล่งข้อมูล </a> *****</font></center><br /><br /><br />
 
 
-<div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">
-<FONT SIZE=5<b style="color:#000080"><b> เพลง  Lay Me Down</FONT></br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
+<!-- Lay Me Down---->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง   Lay Me Down
+<hr class="star-primary"></br></br>
+<FONT SIZE=3><b style="color:#000033"><b></center>
 <center><a name="a3"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/HaMq2nn5ac0" frameborder="0" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#556B2F"><center>
+
 <p>Yes, I do, I believe<br />
 <span style="color: #ff0000;"><strong>(เยส ไซ ดู ไอ บีลี๊ฝ )</strong></span><br />
 That one day I will be<br />
@@ -581,17 +558,22 @@ Lay me by your side<br />
 Can I lay by your side?<br />
 <span style="color: #ff0000;"><strong>(แคน ไน เลย์ บาย ยัวร์ ไซด์ ?)</strong></span><br />
 Next to you<br />
-<span style="color: #ff0000;"><strong>(เน๊กซท ทู ยู )</strong></span><br />
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://www.thaitoeng.com/2964.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />
+<span style="color: #ff0000;"><strong>(เน๊กซท ทู ยู )</strong></span></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://www.thaitoeng.com/2964.html'>จากแหล่งข้อมูล </a> *****</font></center><br /><br /><br />
 
 
 
 
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">
-<FONT SIZE=5><b style="color:#000080"><b> เพลง  Back At One  </font></br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
+<!--Back At One--->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง  Back At One
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a4"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/rXPfovXw2tw" frameborder="0" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#556B2F"><center>
+
 <span style="color: #0000ff;"><strong>(อิทซ อันดีนายอเบิล แดท วี ชูด อีส ทูเก๊ทเธ่อร์)</strong></span><br />
 It&#8217;s unbelievable how I used to say that I&#8217;d fall never<br />
 <span style="color: #0000ff;"><strong>(อิทซ อันบีลีฟอะเบิล ฮาว ไอ ยู๊ส ทู เซย์ แดท อาย ฟอลล์ เน๊เว่อร์)</strong></span><br />
@@ -675,9 +657,8 @@ Five&#8230; make you fall in love with me<br />
 If ever I believe my work is done<br />
 <span style="color: #0000ff;"><strong>(อิ๊ฟ เอ๊เว่อร์ ไอ บีลี๊ฝ มาย เวิ๊ร์ค อีส ดัน)</strong></span><br />
 Then I&#8217;ll start back at one.<br />
-<span style="color: #0000ff;"><strong>(เด็น แอล สท๊าร์ท แบ็ค แก้ด วัน)</strong></span></p><br />
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://www.thaitoeng.com/3886.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />
+<span style="color: #0000ff;"><strong>(เด็น แอล สท๊าร์ท แบ็ค แก้ด วัน)</strong></span></p></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://www.thaitoeng.com/3886.html'>จากแหล่งข้อมูล</a> *****</font></center><br /><br /><br />
 							</div>
 						</div>
 					</div>
@@ -691,15 +672,34 @@ Then I&#8217;ll start back at one.<br />
 	 
 	
 	<!-- Footer -->
-    <div class="footer">
-	    	<div class="container">
-			
-		    	<div class="row">
-				
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Contact Us</h3>
-		    			<p class="contact-us-details">
-	        				<b>Address: Faculty of Science, KhonKaen University</b> <br/>
-	        				<b>Phone:</b><br/>
-	        			</p>
-		    		</div>	
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                       
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                  
+                </div>
+            </div>
+        </div>
+		</footer>
