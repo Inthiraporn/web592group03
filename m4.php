@@ -48,16 +48,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    
-                    <li class="page-scroll">
-                        <a href="#portfolio"><b><font SIZE=3> || มิวสิควิดีโอ || </a></b></font>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about"><b><font SIZE=3> || เนื้อเพลง || </a></b></font>
-                    </li>
-                   <li class="page-scroll">
-                        <a href="music.html"><b><font SIZE=3> || กลับหน้าหลัก || </a></b></font>
-                    </li>
+                       <div class="btn-group" role="group" aria-label="">
+   <a href="#a1"><button type="button" class="btn btn-default">เพลง Monster</a></button>
+   <a href="#a2"><button type="button" class="btn btn-default">เพลง CALL ME BABY  </a></button>
+   <a href="#a3"><button type="button" class="btn btn-default">เพลง Growl Lyric</a></button>
+   <a href="#a4"><button type="button" class="btn btn-default">เพลง Overdose Thai Lyric</a></button>
+   <a href='music.html'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
+   
+ 
+</div>
+</div>
+                   
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -70,7 +71,7 @@
         <div class="container" id="maincontent" tabindex="-1">
 		    <h1 class="name"><FONT SIZE=50><b>EXO</b></h1></font>
 			
-		<IMG SRC="l2.png" width="500" height="150">
+		
             <div class="row">
                 <div class="col-lg-12">
 				
@@ -85,58 +86,17 @@
         </div>
     </header>
 	
-	    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
 
-        <div class="container">
-		
-            <div class="row">
-			  <hr class="star-primary">
-                <div class="col-lg-12 text-center">
-                    <h2>มิวสิควิดีโอ</h2>
-					 <hr class="star-primary">
-					 <center><table border="0" ><tr>
-				<td><td><img class="img-circle" src="ls.gif" alt=""><a href="#a1"><font SIZE=4> 
-					  <b style="color:#8B4513"><b>เนื้อเพลง Monster  >> 
-					  <a href="#a2"><b style="color:#8B4513">เนื้อเพลง CALL ME BABY  >></b>
-					  <a href="#a3"><b style="color:#8B4513">เนื้อเพลง Growl Lyric>></b>
-					  <a href="#a4"><b style="color:#8B4513">เนื้อเพลง  Overdose Thai Lyric </b>
-					 </b></font></font>
-                    </tr></table> </center></br>
-                   
-					
-                </div>
-            </div>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KSH-FVVtTf0" frameborder="0" allowfullscreen></iframe>
-			<a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/yWfsla_Uh80" frameborder="0" allowfullscreen></iframe></br></br></br>
-			<a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/I3dezFzsNss" frameborder="0" allowfullscreen></iframe>
-			<a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/TI0DGvqKZTI" frameborder="0" allowfullscreen></iframe></br></br></br></br></br>
-			<a name="b1"></a>
-
-			<center><img src="s4.jpg"width="500" height=150" ></center></br></br></br></br>
-	
-
-	<!-- About Section -->
-<!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-				 <hr class="star-light">
-                    <font face=" monospace"><h2>เนื้อเพลง</font></h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-				
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง  Monster : EXO</br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>
+		<!-- Monster-->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง   Monster
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a1"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/KSH-FVVtTf0" frameborder="0" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#191970"><center>
+
 왜 심장이 뛰니<br />
 <span style="color: purple;">แว ช&#3636;ม จา ง&#3637; ตว&#3637; น&#3637; </span><br />
 내가 좀 성격이 급해<br />
@@ -235,17 +195,21 @@
 네 맘속에 각인된 채<br />
 <span style="color: purple;">&nbsp;น&#3637; ม&#3633;ม โซ เก คา ก&#3636;น ดเวน แช</span><br />
 죽어도 영원히 살래<br />
-<span style="color: purple;">&nbsp;ช&#3641; กอ โต ยอง วอน ฮ&#3637; ซ&#3633;ล แร</span><br />
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://sunksong.blogspot.com/2015/05/call-me-baby-exo.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />				
+<span style="color: purple;">&nbsp;ช&#3641; กอ โต ยอง วอน ฮ&#3637; ซ&#3633;ล แร</span></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://sunksong.blogspot.com/2015/05/call-me-baby-exo.html'>จากแหล่งข้อมูล </a> *****</font></center><br /><br /><br />			
 					
 					
 					
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง  CALL ME BABY : EXO </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>
+		<!-- CALL ME BABY -->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง   CALL ME BABY 
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a2"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/yWfsla_Uh80" frameborder="0" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#191970"><center>
+
 이 거리는 완전 난리야 사람들 사이는 남이야<br />
 <span style="color: purple;">&nbsp;อ&#3637; กอ ร&#3637; น&#3638;น ว&#3633;น จอน น&#3633;น ร&#3637; ยา ซา ร&#3633;ม ด&#3638;ล ซา อ&#3637; น&#3638;น น&#3633;ม อ&#3637; ยา</span><br />
 함께하는 매 순간이 Like BOOM, BOOM, BOOM, BOOM, BOOM<br />
@@ -396,17 +360,21 @@ Baby girl 욕심들 속에 날 선<br />
 <span style="color: purple;">Call me baby, Call me baby, Call me baby, Call me baby</span><br />
 <br />
 몇 번이라도 Call me girl<br />
-<span style="color: purple;">มยอท พอน อ&#3637; รา โด  Call me girl</span><br />
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://sunksong.blogspot.com/2016/06/monster-exo-vol3-exact.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />			
+<span style="color: purple;">มยอท พอน อ&#3637; รา โด  Call me girl</span></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://sunksong.blogspot.com/2016/06/monster-exo-vol3-exact.html'>จากแหล่งข้อมูล </a> *****</font></center><br /><br /><br />					
 					
 					
-					
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง  Growl Lyric : EXO </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b
+	<!-- Growl Lyric-->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง   Growl Lyric
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a3"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/I3dezFzsNss" frameborder="0" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#191970"><center>
+
+
 너 혹시 몰라 경고하는데 (잘들어)<br />
 <span style="color: #38761d;">นอ ฮก ช&#3637; มล รา คยอง โก ฮา น&#3638;น เด (ช&#3633;ล ด&#3639;อ รอ)</span><br />
 <br />
@@ -586,16 +554,20 @@ yeah 또 다른 늑대들이 볼세라 (볼세라)<br />
 <span style="color: #38761d;">นา อ&#3639;อ ร&#3639;อ รอง อ&#3639;อ ร&#3639;อ รอง อ&#3639;อ ร&#3639;อ รอง แด (Wah)</span><br />
 <br />
 너 물러서지않으면 다쳐도 몰라 (다쳐도몰라)<br />
-<span style="color: #38761d;">นอ ม&#3640;ล รอ ซอ จ&#3637; อ&#3633;น น&#3639;อ มยอน / ทา ชยอ โด มล รา (ทา ชยอ โด มล รา)</span><br />
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://sunksong.blogspot.com/2014/03/growl-exo-k.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />					
+<span style="color: #38761d;">นอ ม&#3640;ล รอ ซอ จ&#3637; อ&#3633;น น&#3639;อ มยอน / ทา ชยอ โด มล รา (ทา ชยอ โด มล รา)</span></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://sunksong.blogspot.com/2014/03/growl-exo-k.html'>จากแหล่งข้อมูล  </a> *****</font></center><br /><br /><br />				
 					
 							
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง  Overdose Thai Lyric : EXO </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>						
+	<!--  Overdose Thai Lyric-->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง    Overdose Thai Lyric<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a4"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/TI0DGvqKZTI" frameborder="0" allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#191970"><center>
+
+
 모든걸 걸고 널 들이킨 나<br />
 <span style="color: purple;">&nbsp;โม ด&#3638;น กอล กอล โค นอล ด&#3639;อ ร&#3637; ค&#3636;น นา</span><br />
 이젠 돌이킬 수도 없다<br />
@@ -717,9 +689,8 @@ Someone call the doctor 난 그녀가 필요해<br />
 벗어나고 싶지 않은 천국 같은 너<br />
 <span style="color: purple;">&nbsp;พอ ซอ นา โก ช&#3636;พ จ&#3637; อา น&#3638;น ชอน ก&#3640;ก กา ท&#3638;น นอ</span><br />
 긴긴 이 덫은 아름다워<br />
-<span style="color: purple;">&nbsp;ค&#3636;น ก&#3636;น อ&#3637; ดอ ช&#3638;น อา ร&#3638;ม ดา วอ</span><br />			
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://sunksong.blogspot.com/2014/07/overdose-exo-k.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />				
+<span style="color: purple;">&nbsp;ค&#3636;น ก&#3636;น อ&#3637; ดอ ช&#3638;น อา ร&#3638;ม ดา วอ</span></br></br></br></center></marquee>			
+<center><font size=1>***** อ้างอิง:<a href='http://sunksong.blogspot.com/2014/07/overdose-exo-k.html'>จากแหล่งข้อมูล </a> *****</font></center><br /><br /><br />					
               </div>
 						</div>
 					</div>
@@ -733,15 +704,34 @@ Someone call the doctor 난 그녀가 필요해<br />
 	 
 	
 	<!-- Footer -->
-   <div class="footer">
-	    	<div class="container">
-			
-		    	<div class="row">
-				
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Contact Us</h3>
-		    			<p class="contact-us-details">
-	        				<b>Address: Faculty of Science, KhonKaen University</b> <br/>
-	        				<b>Phone:</b><br/>
-	        			</p>
-		    		</div>	
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                       
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                  
+                </div>
+            </div>
+        </div>
+		</footer>
