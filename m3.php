@@ -49,15 +49,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     
-                    <li class="page-scroll">
-                        <a href="#portfolio"><b><font SIZE=3> || มิวสิควิดีโอ || </a></b></font>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about"><b><font SIZE=3> || เนื้อเพลง || </a></b></font>
-                    </li>
-                 <li class="page-scroll">
-                        <a href="music.html"><b><font SIZE=3> || กลับหน้าหลัก || </a></b></font>
-                    </li>
+                  <div class="btn-group" role="group" aria-label="">
+   <a href="#a1"><button type="button" class="btn btn-default">เพลง Spring Day</a></button>
+   <a href="#a2"><button type="button" class="btn btn-default">เพลง Blood Sweat & Tears </a></button>
+   <a href="#a3"><button type="button" class="btn btn-default">เพลง Not Today</a></button>
+   <a href="#a4"><button type="button" class="btn btn-default">เพลง Fire </a></button>
+   <a href='music.html'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
+   
+ 
+</div>
+</div>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -70,8 +71,6 @@
         <div class="container" id="maincontent" tabindex="-1">
 		    <h1 class="name"><FONT SIZE=50><b>BTS</b></h1></font>
 		 
-			
-		<IMG SRC="l2.png" width="500" height="150">
             <div class="row">
                 <div class="col-lg-12">
 				
@@ -84,57 +83,17 @@
             </div>
         </div>
     </header>
-	
-	    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
 
-        <div class="container">
-		
-            <div class="row">
-			  <hr class="star-primary">
-                <div class="col-lg-12 text-center">
-                  <ul Style="color:white;background-color:#BEBEBE;border:3px solid #000000">
-<font size="4"><b style="color:#FFFFFF"><font face=" monospace"> <h2>มิวสิควิดีโอ</font></b></h2></ul>
-<center><table border="0" ><tr>
-				<td><td><img class="img-circle" src="ls.gif" alt=""><a href="#a1"><font SIZE=4> 
-				      <b style="color:#9400D3"><b>เนื้อเพลง Spring Day (봄날) >> 
-					  <a href="#a2"><b style="color:#9400D3">เนื้อเพลง Blood Sweat & Tears (피 땀 눈물) >></b>
-					  <a href="#a3"><b style="color:#9400D3">เนื้อเพลง Not Today >></b>
-					  <a href="#a4"><b style="color:#9400D3">เนื้อเพลง Fire (불타오르네)</b>
-					 </b></font></font>
-                    </tr></table> </center>
-                    <hr class="star-primary"></br>
-					
-                </div>
-            </div>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xEeFrLSkMm8?ecver=2"  allowfullscreen></iframe>
-				    <a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/hmE9f-TEutc?ecver=2"  allowfullscreen></iframe></br></br></br>
-				    <a name="b1"></a>
-		    <iframe width="560" height="315" src="https://www.youtube.com/embed/9DwzBICPhdM?ecver=2"  allowfullscreen></iframe>
-				    <a name="b1"></a>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/ALj5MKjy2BU?ecver=2"  allowfullscreen></iframe></br></br></br>
-					<a name="b1"></a>
-			
-<center><img src="s4.jpg"width="500" height=150" ></center></br>
-
-		<!-- About Section -->
-    <section  id="about">
-        <div class="container">
-            <div class="row">
-			<hr class="star-primary">
-                <div class="col-lg-12 text-center">
-				<ul Style="color:white;background-color:#2E8B57;border:3px solid #000000">
-<font size="4"><b style="color:#FFFFFF"><font face=" monospace">
-                    <h2>เนื้อเพลง</font></h2></ul></b>
-                    <hr class="star-primary"></br></br>
-					
-		<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง Spring Day (봄날) : BTS </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>			
+		<!-- Spring Day (봄날)-->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง    Spring Day (봄날):BTS
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a1"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/xEeFrLSkMm8?ecver=2"  allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#191970"><center>
+ 
 <span style="color: purple;">โพ โก ช&#3636;บ ตา </span><br />
 이렇게 말하니까 더 보고 싶다<br />
 &nbsp;<span style="color: purple;"> อ&#3637; รอ เค ม&#3633;ล รา น&#3637; กา ดอ โพ โก ช&#3636;บ ตา</span><br />
@@ -316,18 +275,23 @@
 그곳에 좀 더 머물러줘<br />
 <span style="color: purple;">&nbsp;ค&#3639;อ โก เซ จม ดอ มอ ม&#3640;ล รอ จวอ</span><br />
 머물러줘<br />
-<span style="color: purple;">มอ ม&#3640;ล รอ จวอ</span><br />	
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://sunksong.blogspot.com/2017/02/spring-day-bts.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />
+<span style="color: purple;">มอ ม&#3640;ล รอ จวอ</span></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://sunksong.blogspot.com/2017/02/spring-day-bts.html'>จากแหล่งข้อมูล </a> *****</font></center><br /><br /><br />
 
 
 
 					
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง Blood Sweat & Tears (피 땀 눈물) : BTS </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>			
+		<!-- Blood Sweat & Tears (피 땀 눈물) : BTS -->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง    Blood Sweat & Tears (피 땀 눈물) : BTS 
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a2"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/hmE9f-TEutc?ecver=2"  allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#191970"><center>
+
+
 내 피 땀 눈물<br />
 <span style="color: purple;">&nbsp;แน พ&#3637; ต&#3633;ม น&#3640;น ม&#3640;ล</span><br />
 내 마지막 춤을<br />
@@ -470,17 +434,22 @@ Baby 취해도 돼 이제 널 들이켜<br />
 내 피 땀 눈물<br />
 <span style="color: purple;">&nbsp;แน พ&#3637; ต&#3633;ม น&#3640;น ม&#3640;ล</span> <br />
 내 피 땀 눈물<br />
-<span style="color: purple;">&nbsp;แน พ&#3637; ต&#3633;ม น&#3640;น ม&#3640;ล</span><br />
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://sunksong.blogspot.com/2016/10/blood-sweat-tears-bts.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />
+<span style="color: purple;">&nbsp;แน พ&#3637; ต&#3633;ม น&#3640;น ม&#3640;ล</span></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://sunksong.blogspot.com/2016/10/blood-sweat-tears-bts.html'>จากแหล่งข้อมูล  </a> *****</font></center><br /><br /><br />
+
 		
 
+		
 
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง Not Today : BTS </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>	
+<!--Not Today---->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง   Not Today
+<hr class="star-primary"></br></br>
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a3"></a></center>
+<center>  <iframe width="560" height="315" src="https://www.youtube.com/embed/9DwzBICPhdM?ecver=2"  allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#556B2F"><center>
 
 <span style="color: purple;">All the underdogs in the world</span><br />
 <span style="color: purple;">A day may come when we lose</span><br />
@@ -624,18 +593,20 @@ Hey 나를 믿는다면 hands up<br />
 꿇지 마라 울지 않아<br />
 <span style="color: purple;">&nbsp;ก&#3640;ล ช&#3637; มา รา อ&#3640;ล จ&#3637; อา นา</span><br />
 손을 들어 not not today<br />
-<span style="color: purple;">&nbsp;โซ น&#3638;ล ท&#3639;อ รอ not not today</span><br />	
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />	
+<span style="color: purple;">&nbsp;โซ น&#3638;ล ท&#3639;อ รอ not not today</span></br></br></br></center></marquee>
 ***** อ้างอิง:<a href='http://sunksong.blogspot.com/2017/02/not-today-bts.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />
 
 
 
 
-<center><div id="content"style="background-color: rgba(220,255,255,.9); border: 
-3px solid White;font-size: 20px; width: 50%;border-radius: 30px;">	
-<FONT SIZE=5><b style="color:#000080"><b> เพลง Fire (불타오르네) : BTS </br><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"><img src="1.png" width="70" height=100"></br>
-<FONT SIZE=3><b style="color:#000033"><b>	
+<!-- Fire---->
+<center><FONT SIZE=5><b style="color:#000080"><b> <hr class="star-primary"> เพลง   Fire
+<FONT SIZE=4><b style="color:#000033"><b></center>
 <center><a name="a4"></a></center>
+<center>	<iframe width="560" height="315" src="https://www.youtube.com/embed/ALj5MKjy2BU?ecver=2"  allowfullscreen></iframe></br></br></center>
+<marquee direction=up height=250 onMouseOut=this.start() onMouseOver=this.stop()
+ scrollamount=1 scrolldelay=30 width=100% truespeed=true style="filter:wave(add=0,
+ lightstrength=80, phase=1, strength=1, freq=2);color:#556B2F"><center>
 
 When I wake up in my room 난 뭣도 없지<br />
 <span style="color: purple;">&nbsp;When I wake up in my room น&#3633;น มวอท โด ออบ จ&#3637;</span><br />
@@ -746,9 +717,8 @@ Hey, turn it up 새벽이 다 갈 때까지<br />
 <span style="color: purple;">ซ&#3633;ก ดา พ&#3640;ล แท วอ รา&nbsp; Bow wow wow</span><br />
 <br />
 용서해줄게<br />
-<span style="color: purple;">ยง ซอ แฮ จ&#3640;ล เก</span><br />
-<a  href='#b1'><img class="img-responsive img-circle" src="ls1.gif" alt=""></a><br />
-***** อ้างอิง:<a href='http://sunksong.blogspot.com/2017/02/not-today-bts.html'>จากแหล่งข้อมูล ***** </a></div><br /><br />
+<span style="color: purple;">ยง ซอ แฮ จ&#3640;ล เก</span></br></br></br></center></marquee>
+<center><font size=1>***** อ้างอิง:<a href='http://sunksong.blogspot.com/2017/02/not-today-bts.html'>จากแหล่งข้อมูล</a> *****</font></center><br /><br /><br />
 
 						</div>
 					</div>
@@ -760,15 +730,34 @@ Hey, turn it up 새벽이 다 갈 때까지<br />
     </section>
 
 	<!-- Footer -->
-  <div class="footer">
-	    	<div class="container">
-			
-		    	<div class="row">
-				
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Contact Us</h3>
-		    			<p class="contact-us-details">
-	        				<b>Address: Faculty of Science, KhonKaen University</b> <br/>
-	        				<b>Phone:</b><br/>
-	        			</p>
-		    		</div>	
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                       
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                  
+                </div>
+            </div>
+        </div>
+		</footer>
