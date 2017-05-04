@@ -53,7 +53,7 @@
    <a href="#a2"><button type="button" class="btn btn-default">เพลง CALL ME BABY  </a></button>
    <a href="#a3"><button type="button" class="btn btn-default">เพลง Growl Lyric</a></button>
    <a href="#a4"><button type="button" class="btn btn-default">เพลง Overdose Thai Lyric</a></button>
-   <a href='music.html'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
+   <a href='main.php'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
    
  
 </div>
@@ -696,7 +696,7 @@ Someone call the doctor 난 그녀가 필요해<br />
 						</div>
 					</div>
             <div class="row"> 
-			<center><a href='music.html'><img src="icon.png"></br>กลับหน้าหลัก</center></a>
+			<center><a href='main.php'><img src="icon.png"></br>กลับหน้าหลัก</center></a>
             </div>
         </div>
     </section>
