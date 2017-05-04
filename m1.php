@@ -54,7 +54,7 @@
    <a href="#a2"><button type="button" class="btn btn-default">เพลง ความจริง</a></button>
    <a href="#a3"><button type="button" class="btn btn-default">เพลง อย่าให้ฉันคิด</a></button>
    <a href="#a4"><button type="button" class="btn btn-default">เพลง Restart</a></button>
-   <a href='music.html'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
+   <a href='main.php'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
    
  
 </div>
