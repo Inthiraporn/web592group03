@@ -54,7 +54,7 @@
    <a href="#a2"><button type="button" class="btn btn-default">เพลง Blood Sweat & Tears </a></button>
    <a href="#a3"><button type="button" class="btn btn-default">เพลง Not Today</a></button>
    <a href="#a4"><button type="button" class="btn btn-default">เพลง Fire </a></button>
-   <a href='music.html'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
+   <a href='main.php'><button type="button" class="btn btn-default">กลับหน้าหลัก</a></button>
    
  
 </div>
@@ -724,7 +724,7 @@ Hey, turn it up 새벽이 다 갈 때까지<br />
 					</div>
             <div class="row">
 			</div>
-			<center><a href='music.html'><img src="icon.png"></br>กลับหน้าหลัก</center></a>
+			<center><a href='main.php'><img src="icon.png"></br>กลับหน้าหลัก</center></a>
 		</div>
 		</div>
     </section>
