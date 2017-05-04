@@ -288,7 +288,7 @@
 						</div>
 					</div>
             <div class="row"> 
-			<center><a href='music.html'><img src="icon.png"></br>กลับหน้าหลัก</center></a>
+			<center><a href='main.php'><img src="icon.png"></br>กลับหน้าหลัก</center></a>
 	 
             </div>
         </div>
