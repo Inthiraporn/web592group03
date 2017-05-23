@@ -1,8 +1,31 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<?php
+	$appid = "web592group03.appspot.com";
+	$page = $_GET['p'];
+	if($page=='') $page='main';
+		$title = $page;
+	function panel_include($title,$file,$ptype='default'){
+		echo "<div class='panel panel-$ptype'>";
+		echo "<div class='panel-heading'>$title</div>";
+		echo "<div class='panel-body'>";
+		if(file_exists($file)){
+			include($file);
+		}else{
+			echo "ไม่พบไฟล์ $file";
+		}
+		echo "</div>";
+		echo "</div>";
+	}
+	use google\appengine\api\cloud_storage\CloudStorageTools;
+	function userpic($uid){
+		global $appid;
+		$userpic="gs://$appid/{$uid}.jpg";
+		if(!file_exists($userpic)){
+			return "user.png";
+		}
+		return CloudStorageTools::getImageServingUrl($userpic,["size"=>50]);
+	}
+?>
 <html lang="en">
 
 <head>
@@ -48,212 +71,34 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-		<a class="navbar-brand" href="main.php" alt="Noname Entertainment"><img src="logo.png"></a>
+		<a class="navbar-brand"alt="Noname Entertainment"><img src="logo.png"></a>
             </div>
 
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="main.php">Home</a></li>
-		    <li class="dropdown">
-                        <a href="music.html" class="dropdown-toggle" data-toggle="dropdown">Musics <i class="icon-angle-down caret"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="m1.php">Thai Music</a></li>
-                            <li><a href="m3.php">Korea Music</a></li>
-			    <li><a href="m5.php">International Song</a></li>
-                        </ul>
-                    </li>
-		    <li class="dropdown">
-                        <a href="mainmovie.html" class="dropdown-toggle" data-toggle="dropdown">Movies <i class="icon-angle-down caret"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="mainmovie.html#thai">Thai Movie</a></li>
-			    <li><a href="mainmovie.html#comedy">Comedy Movie</a></li>
-                            <li><a href="mainmovie.html#korea">Korea Movie</a></li>
-			    <li><a href="mainmovie.html#horror">Horror Movie</a></li>
-			    <li><a href="mainmovie.html#new">New Movie</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#a1">About Us</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
-					<li><a href="Login.php">Login</a></li>
-                </ul>
             </div>
         </div>
+		<! --/container -->
     </header><!--/header-->
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(http://www.wallpapersandmore.com/admin/wllpapers/1512080822181entertainment-dj-mixer-music-primary-category-wallpapers-hq-dj-music-wallpaper.jpg)">
+                <div class="item active" style="background-image: url(https://github.com/Inthiraporn/web592group03/blob/master/img/slides/1.jpg?raw=true)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content centered">
                                     <h2 class="animation animated-item-1">Welcome to<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NONAME Entertainment!</h2>
-                                </div>
+                                <br>
+								<br>
+								<center><button type="button" class="btn btn-default" data-dismiss="modal"><a href="G03.php"><i class="fa fa-times"></i><h4>เข้าสู่เว็บไซต์</h4></button></center>
+								</div>
                             </div>
                         </div>
                     </div>
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(http://www.siwallpaperhd.com/wp-content/uploads/2015/10/music_hd_wallpaper.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content center centered">
-                                    <h2 class="animation animated-item-1">MUSICS</h2>
-                                    <p class="animation animated-item-2">Is My Life. </p>
-                                    <br>
-                                    <a class="btn btn-md animation animated-item-3" href="music.html">Listen!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-                <div class="item" style="background-image: url(http://4.bp.blogspot.com/-z35MFVa5-ug/Um7RYVTeO2I/AAAAAAAAAmE/ldT_R_Hs4Sk/s1600/movie-UP-cartoon-disney-pixar-full-hd-wallpaper-balloons-and-the-house-in-the-sky-1080p.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Movies</h2>
-                                    <p class="animation animated-item-2">Enjoy movies</p>
-                                    <br>
-									<a class="btn btn-md animation animated-item-3" href="movie.html">Watch!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="icon-angle-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="icon-angle-right"></i>
-        </a>
-    </section><!--/#main-slider-->
-<a name="a1"></a><div class="section">
-			<div class="container">
-				<div class="section-title">
-				<br>
-				<br>
-				<br>
-				<br>
-				<a name="a1"><h1>ABOUT US</h1></div>
-		
-			</div>
-		</div>
-<div class="section">
-	    	<div class="container">
-				<div class="row">
-					<!-- Team Member -->
-					<div class="col-md-3 col-sm-6">
-						<div class="team-member">
-							<!-- Team Member Photo -->
-							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/1.jpg?raw=true" alt="Name Surname"></div>
-							<div class="team-member-info">
-								<ul>
-									<!-- Team Member Info & Social Links -->
-									<li class="team-member-name">
-										Kanjana Saengrit
-										<!-- Team Member Social Links -->
-										<span class="team-member-social">
-										<br>
-											<a href="https://www.facebook.com/Bas.Kanjana.Saengrit?fref=ts"><i class="icon-facebook"></i></a>
-										</span>
-									</li>
-									<li>Web Developer</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!-- End Team Member -->
-					<div class="col-md-3 col-sm-6">
-						<div class="team-member">
-							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/2.jpg?raw=true" alt="Name Surname"></div>
-							<div class="team-member-info">
-								<ul>
-									<li class="team-member-name">
-										Pradiewradchada Peachaw
-										<span class="team-member-social">
-											<a href="https://www.facebook.com/gu.toey.dw"><i class="icon-facebook"></i></a>
-										</span>
-									</li>
-									<li>Web Designer</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="team-member">
-							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/3.jpg?raw=true" alt="Name Surname"></div>
-							<div class="team-member-info">
-								<ul>
-									<li class="team-member-name">
-										Inthiraporn Chaichumpol
-										<span class="team-member-social">
-										<br>
-											<a href="https://www.facebook.com/inthiraporn.chaichumpol?fref=ts"><i class="icon-facebook"></i></a>
-										</span>
-									</li>
-									<li>Project Manager</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="team-member">
-							<div class="team-member-image"><img src="https://github.com/Inthiraporn/web592group03/blob/master/team/4.jpg?raw=true" alt="Name Surname"></div>
-							<div class="team-member-info">
-								<ul>
-									<li class="team-member-name">
-										Piyaporn Tooltham
-										<span class="team-member-social">
-										<br>
-											<a href="https://www.facebook.com/piyarporn.toontam?fref=ts"><i class="icon-facebook"></i></a>
-										</span>
-									</li>
-									<li>Project Manager</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-<hr>
-
-		
-
-	    <!-- Footer -->
-	    <div class="footer">
-	    	<div class="container">
+                
+        
 			
-		    	<div class="row">
-				
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Contact Us</h3>
-		    			<p class="contact-us-details">
-	        				<b>Address: Faculty of Science, KhonKaen University</b> <br/>
-	        				<b>Phone:</b><br/>
-	        			</p>
-		    		</div>				
-		    		<div class="col-footer col-md-4 col-xs-6">
-		    			<h3>Our Social Networks</h3>
-						<div>
-		    				<img src="img/icons/facebook.png" width="32" alt="Facebook">
-		    				<img src="img/icons/twitter.png" width="32" alt="Twitter">
-		    				<img src="img/icons/linkedin.png" width="32" alt="LinkedIn">
-							<img src="img/icons/rss.png" width="32" alt="RSS Feed">
-						</div>
-		    		</div>
-		    	</div>
-		    </div>
-	    </div>
 
         <!-- Javascripts -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
